@@ -1,2 +1,61 @@
+:root{
+    /* основной цвет #434455*/
+    /* вторичній на заголовках #2E2F42 */
+    /* цвет кнопки #4D5AE5*/
+}
 
 
+
+
+body {
+    background-color: ffffff;
+    color: #434455;
+}
+/* logo */
+.logo {
+    color: #2E2F42;
+}
+
+span {
+    color: #4D5AE5;
+}
+
+ul {
+    list-style: none;
+}
+/* навигация сайта в hed */
+.site-nav {
+    color: #2E2F42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #4D5AE5;
+}
+
+.mail {
+    color: #434455;
+}
+
+.contacts .mail:hover,:focus{
+    color: #4D5AE5;
+}
+
+.phone { 
+    color: #434455;
+}
+
+.contacts .phone:hover,:focus{
+    color: #4D5AE5;
+}
+/* hero */
+.hero-title {
+    background-color: #2E2F42;;
+    color: #FFFFFF;;
+    width: 1440px;
+    height: 603px;
+}
+/* what are we doing */
+.section-title {
+    color: #2E2F42;
+}
