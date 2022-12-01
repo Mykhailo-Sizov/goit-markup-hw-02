@@ -11,16 +11,14 @@
 
 
 
-
 body {
     background-color: ffffff;
     color: var(--primary-text-color);
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
 }
 /* logo */
 .logo {
@@ -110,7 +108,7 @@ ul {
 }
 
 /* what are we doing */
-.section-title  {
+.section-title h3 {
     color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -118,27 +116,69 @@ ul {
     font-size: 20px;
     line-height: 24px;
 }
-   
+
+.team-work h2 {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.section-team h2 {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.section-names h3 {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
 .section-footer{
     background-color: var(--title-text-color);
     color: #E7E9FC;
     width: 1440px;
-    height: 310px;
-    
+    height: 310px;  
 }
 
 .logo-footer{
     color: #F4F4FD;
+    
 }
 
       /*  Portfolio page */
  .button-btn{
     background-color: var(--button-portfolio);
     color: var(--button-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
  }
 
 .button-list .button-btn:hover,:focus{
     background-color: var(--button-color);
     color: var(--white-color);
+}
+
+.section-portfolio h2 {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
 }
 
