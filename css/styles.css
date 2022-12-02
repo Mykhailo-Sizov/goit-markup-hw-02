@@ -15,20 +15,18 @@ body {
     background-color: ffffff;
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 /* logo */
 .logo {
     color: var(--title-text-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 0.75em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -37,10 +35,9 @@ body {
 span {
     color: var(--button-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 0.75em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -52,10 +49,8 @@ ul {
 .site-nav {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 .site-nav a {
@@ -70,10 +65,9 @@ ul {
 .mail {
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -85,10 +79,9 @@ ul {
 .phone { 
     color: var(--primary-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -100,13 +93,8 @@ ul {
 .hero-title {
     background-color:#2E2F42; 
     color: var(--white-color);
-    width: 1440px;
-    height: 603px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1em;
     letter-spacing: 0.02em;
 }
 
@@ -115,11 +103,8 @@ ul {
     color: var(--white-color);
     width: 170px;
     height: 51px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18em;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -127,21 +112,16 @@ ul {
 /* what are we doing */
 .section-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2em;
     letter-spacing: 0.02em;
 }
 
 .team-work {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -149,10 +129,8 @@ ul {
 .section-team {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -160,18 +138,15 @@ ul {
 .section-names {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2em;
 }
 
 
 .section-footer{
     background-color: var(--title-text-color);
     color: #E7E9FC;
-    width: 1440px;
-    height: 310px;  
+      
 }
 
 .logo-footer{
@@ -180,7 +155,7 @@ ul {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -192,10 +167,8 @@ ul {
     background-color: var(--button-portfolio);
     color: var(--button-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     cursor: pointer;
  }
 
@@ -207,9 +180,7 @@ ul {
 .section-portfolio h2 {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2em;
 }
 
