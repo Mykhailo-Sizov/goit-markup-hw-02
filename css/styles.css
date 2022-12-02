@@ -19,6 +19,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 /* logo */
 .logo {
@@ -28,6 +29,9 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 span {
@@ -37,6 +41,8 @@ span {
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 ul {
@@ -50,6 +56,10 @@ ul {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.site-nav a {
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -64,6 +74,8 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts .mail:hover,:focus{
@@ -71,11 +83,14 @@ ul {
 }
 
 .phone { 
-    color: var(--primary-text-color);font-family: 'Roboto';
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts .phone:hover,:focus{
@@ -92,6 +107,7 @@ ul {
     font-weight: 600;
     font-size: 56px;
     line-height: 60px;
+    letter-spacing: 0.02em;
 }
 
 .button-hero {
@@ -104,38 +120,44 @@ ul {
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
 /* what are we doing */
-.section-title h3 {
+.section-title {
     color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
-.team-work h2 {
+.team-work {
     color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-.section-team h2 {
+.section-team {
     color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-.section-names h3 {
+.section-names {
     color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -154,6 +176,14 @@ ul {
 
 .logo-footer{
     color: #F4F4FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
     
 }
 
