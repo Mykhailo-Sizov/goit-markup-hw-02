@@ -23,7 +23,7 @@ body {
 /* logo */
 .logo {
     color: var(--title-text-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 0.75em;
@@ -34,7 +34,7 @@ body {
 
 span {
     color: var(--button-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 0.75em;
@@ -46,9 +46,10 @@ ul {
     list-style: none;
 }
 /* навигация сайта в hed */
-.site-nav {
+.site-nav .link {
     color: var(--title-text-color);
     font-family: 'Roboto';
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
@@ -59,10 +60,11 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+    background-color: #F4F4FD;
     color: var(--button-color);
 }
 
-.mail {
+.contacts .mail {
     color: var(--primary-text-color);
     font-family: 'Roboto';
     font-weight: 400;
@@ -76,7 +78,7 @@ ul {
     color: var(--button-color);
 }
 
-.phone { 
+.contacts .phone { 
     color: var(--primary-text-color);
     font-family: 'Roboto';
     font-weight: 400;
@@ -103,6 +105,7 @@ ul {
     color: var(--white-color);
     width: 170px;
     height: 51px;
+    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.18em;
     letter-spacing: 0.04em;
@@ -119,7 +122,6 @@ ul {
 
 .team-work {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.02em;
@@ -127,8 +129,8 @@ ul {
 }
 
 .section-team {
+    background-color: var(--button-portfolio);
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.02em;
@@ -137,7 +139,6 @@ ul {
 
 .section-names {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-size: 20px;
     line-height: 1.2em;
 }
@@ -151,7 +152,7 @@ ul {
 
 .logo-footer{
     color: #F4F4FD;
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -163,10 +164,9 @@ ul {
 }
 
       /*  Portfolio page */
- .button-btn{
+.button-btn{
     background-color: var(--button-portfolio);
     color: var(--button-color);
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5em;
     cursor: pointer;
@@ -177,9 +177,8 @@ ul {
     color: var(--white-color);
 }
 
-.section-portfolio h2 {
+.foto-img .section-portfolio {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-size: 20px;
     line-height: 1.2em;
 }
