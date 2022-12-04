@@ -58,9 +58,10 @@ ul {
     text-decoration: none;
 }
 
-.site-nav .link:hover,
+.site-nav .link:hover {
+    color: var(--primary-text-color);
+}
 .site-nav .link:focus {
-    background-color: #F4F4FD;
     color: var(--button-color);
 }
 
@@ -74,7 +75,8 @@ ul {
     text-decoration: none;
 }
 
-.contacts .mail:hover,:focus{
+.contacts .mail:hover,
+.contacts .mail:focus{
     color: var(--button-color);
 }
 
@@ -88,7 +90,8 @@ ul {
     text-decoration: none;
 }
 
-.contacts .phone:hover,:focus{
+.contacts .phone:hover,
+.contacts .phone:focus{
     color: var(--button-color);
 }
 /* hero */
@@ -128,8 +131,12 @@ ul {
     text-transform: capitalize;
 }
 
-.section-team {
+.section-command {
     background-color: var(--button-portfolio);
+}
+
+.section-team {
+
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.11em;
@@ -172,7 +179,8 @@ ul {
     cursor: pointer;
  }
 
-.button-list .button-btn:hover,:focus{
+.button-list .button-btn:hover,
+.button-list .button-btn:focus{
     background-color: var(--button-color);
     color: var(--white-color);
 }
